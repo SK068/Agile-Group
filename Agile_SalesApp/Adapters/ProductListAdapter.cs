@@ -24,7 +24,7 @@ namespace Agile_SalesApp.Adapters
             this.context = context;
             operation = new DataOperation();
         }
-
+        
         public override int Count
         {
             get { return datas.Count; }
